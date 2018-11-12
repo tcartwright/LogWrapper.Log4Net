@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+	<metadata>
+		<id>LogWrapper.Log4Net</id>
+		<version>1.0.0</version>
+		<title>LogWrapper.Log4net</title>
+		<authors>Tim Cartwright</authors>
+		<owners>Tim Cartwright</owners>
+		<description>LogWrapper.Log4net encapsulates log4net logging into an easy to use wrapper.</description>
+		<copyright>Copyright &#169; Tim Cartwright 2016</copyright>
+		<tags>Log4net Wrapper</tags>
+    <licenseUrl>https://github.com/tcartwright/LogWrapper.Log4Net/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/tcartwright/LogWrapper.Log4Net</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+			VERSION 1.0.0:
+			- Initial creation.
+		</releaseNotes>		
+		<dependencies>
+			<dependency id="log4net" version="2.0.8" />
+		</dependencies>
+		<references>
+			<reference file="LogWrapper.Log4net.dll" />
+		</references>
+	</metadata>
+	<files>
+		<file src="LogWrapper.Log4net.dll" target="lib\net40\LogWrapper.Log4net.dll" />
+		<file src="LogWrapper.Log4net.pdb" target="lib\net40\LogWrapper.Log4net.pdb" />
+		<file src="LogWrapper.Log4net.xml" target="lib\net40\LogWrapper.Log4net.xml" />
+		<file src="Sample.Log4Net.config" target="content\Sample.Log4Net.config" />
+	</files>
+</package>
